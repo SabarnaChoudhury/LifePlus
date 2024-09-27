@@ -1,0 +1,15 @@
+<div class="patient-container">
+    <h2>Patient List</h2>
+    <div class="patient-grid">
+      <!-- Loop through each patient and display a tile with the patient's image and details -->
+      <div class="patient-tile" *ngFor="let patient of patients">
+        <img [src]="patient.image" alt="{{ patient.name }}" class="patient-image" />
+        <div class="patient-details">
+          <h3>{{ patient.name }}</h3>
+          <p><strong>Age:</strong> {{ patient.age }}</p>
+          <p><strong>Diagnosis:</strong> {{ patient.diagnosis }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
