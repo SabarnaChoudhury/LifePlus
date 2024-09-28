@@ -1,0 +1,102 @@
+[
+  {
+    "model": "core.doctor",
+    "pk": 1,
+    "fields": {
+      "name": "Dr. Alice Brown",
+      "specialty": "Cardiologist",
+      "experience": 15,
+      "image": "https://randomuser.me/api/portraits/women/1.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 2,
+    "fields": {
+      "name": "Dr. Bob Smith",
+      "specialty": "Orthopedic Surgeon",
+      "experience": 20,
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 3,
+    "fields": {
+      "name": "Dr. Carol White",
+      "specialty": "Pediatrician",
+      "experience": 12,
+      "image": "https://randomuser.me/api/portraits/women/3.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 4,
+    "fields": {
+      "name": "Dr. Daniel Green",
+      "specialty": "Neurologist",
+      "experience": 18,
+      "image": "https://randomuser.me/api/portraits/men/4.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 5,
+    "fields": {
+      "name": "Dr. Eve Black",
+      "specialty": "Dermatologist",
+      "experience": 10,
+      "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 6,
+    "fields": {
+      "name": "Dr. Frank Blue",
+      "specialty": "General Surgeon",
+      "experience": 22,
+      "image": "https://randomuser.me/api/portraits/men/6.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 7,
+    "fields": {
+      "name": "Dr. Grace Gray",
+      "specialty": "Endocrinologist",
+      "experience": 14,
+      "image": "https://randomuser.me/api/portraits/women/7.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 8,
+    "fields": {
+      "name": "Dr. Henry Silver",
+      "specialty": "Psychiatrist",
+      "experience": 16,
+      "image": "https://randomuser.me/api/portraits/men/8.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 9,
+    "fields": {
+      "name": "Dr. Isabel Gold",
+      "specialty": "Gynecologist",
+      "experience": 12,
+      "image": "https://randomuser.me/api/portraits/women/9.jpg"
+    }
+  },
+  {
+    "model": "core.doctor",
+    "pk": 10,
+    "fields": {
+      "name": "Dr. Jack White",
+      "specialty": "Oncologist",
+      "experience": 19,
+      "image": "https://randomuser.me/api/portraits/men/10.jpg"
+    }
+  }
+]

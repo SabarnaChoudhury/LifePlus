@@ -1,0 +1,54 @@
+# Node.js / Angular ignores
+life-plus/node_modules/
+life-plus/dist/
+life-plus/.angular/
+life-plus/.env
+
+# Angular specific build files
+life-plus/.idea
+life-plus/.vscode
+
+# Django ignores
+api-services/__pycache__/
+api-services/*.py[cod]
+api-services/db.sqlite3
+api-services/media/
+api-services/staticfiles/
+
+# Virtual environments
+api-services/env/
+api-services/.venv/
+api-services/venv/
+api-services/env.bak/
+api-services/.venv.bak/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE and system files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
+
+# Ignore test and temporary files
+*.pot
+*.pid
+.tox/
+*.test
+*.pytest_cache/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore virtual environment directories
+env/
+venv/
