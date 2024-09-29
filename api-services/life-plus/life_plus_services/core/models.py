@@ -6,6 +6,9 @@ class Patient(models.Model):
     age = models.IntegerField()
     diagnosis = models.CharField(max_length=200)
     image = models.URLField(max_length=200, blank=True)
+    email = models.EmailField(max_length=100, blank=True)
+    contact = models.CharField(max_length=15, blank=True)
+    address = models.CharField(max_length=200, blank=True)
 
     def __str__(self):
         return self.name
@@ -16,6 +19,9 @@ class Doctor(models.Model):
     specialty = models.CharField(max_length=100)
     experience = models.IntegerField()
     image = models.URLField(max_length=200, blank=True)
-
+    email = models.EmailField(max_length=100, blank=True)
+    contact = models.CharField(max_length=15, blank=True)
+    bio = models.TextField(blank=True)
+    
     def __str__(self):
         return self.name
