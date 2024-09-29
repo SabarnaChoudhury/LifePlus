@@ -1,102 +1,132 @@
 [
-  {
-    "model": "core.doctor",
-    "pk": 1,
-    "fields": {
-      "name": "Dr. Alice Brown",
-      "specialty": "Cardiologist",
-      "experience": 15,
-      "image": "https://randomuser.me/api/portraits/women/1.jpg"
+    {
+        "model": "core.doctor",
+        "pk": 1,
+        "fields": {
+            "name": "Dr. Amit Verma",
+            "specialty": "Cardiologist",
+            "experience": 15,
+            "image": "https://randomuser.me/api/portraits/men/1.jpg",
+            "email": "amit.verma@example.com",
+            "contact": "+91-9876543210",
+            "bio": "Dr. Amit Verma is a renowned cardiologist with 15 years of experience specializing in treating heart-related ailments."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 2,
+        "fields": {
+            "name": "Dr. Priya Sen",
+            "specialty": "Dermatologist",
+            "experience": 12,
+            "image": "https://randomuser.me/api/portraits/women/2.jpg",
+            "email": "priya.sen@example.com",
+            "contact": "+91-8765432109",
+            "bio": "Dr. Priya Sen is an expert dermatologist, known for her work in cosmetic treatments and skincare solutions."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 3,
+        "fields": {
+            "name": "Dr. Suresh Iyer",
+            "specialty": "Orthopedic Surgeon",
+            "experience": 20,
+            "image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "email": "suresh.iyer@example.com",
+            "contact": "+91-7654321098",
+            "bio": "Dr. Suresh Iyer is a top orthopedic surgeon with a focus on sports injuries and joint replacements."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 4,
+        "fields": {
+            "name": "Dr. Kavita Sharma",
+            "specialty": "Pediatrician",
+            "experience": 8,
+            "image": "https://randomuser.me/api/portraits/women/4.jpg",
+            "email": "kavita.sharma@example.com",
+            "contact": "+91-6543210987",
+            "bio": "Dr. Kavita Sharma is a dedicated pediatrician who specializes in child healthcare and developmental disorders."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 5,
+        "fields": {
+            "name": "Dr. Anil Saxena",
+            "specialty": "Neurologist",
+            "experience": 18,
+            "image": "https://randomuser.me/api/portraits/men/5.jpg",
+            "email": "anil.saxena@example.com",
+            "contact": "+91-5432109876",
+            "bio": "Dr. Anil Saxena has extensive experience in treating neurological disorders, focusing on stroke and epilepsy management."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 6,
+        "fields": {
+            "name": "Dr. Neha Mehta",
+            "specialty": "Gynecologist",
+            "experience": 14,
+            "image": "https://randomuser.me/api/portraits/women/6.jpg",
+            "email": "neha.mehta@example.com",
+            "contact": "+91-4321098765",
+            "bio": "Dr. Neha Mehta is a well-known gynecologist, helping women through various stages of life with care and compassion."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 7,
+        "fields": {
+            "name": "Dr. Rajiv Nair",
+            "specialty": "Gastroenterologist",
+            "experience": 11,
+            "image": "https://randomuser.me/api/portraits/men/7.jpg",
+            "email": "rajiv.nair@example.com",
+            "contact": "+91-3210987654",
+            "bio": "Dr. Rajiv Nair is a skilled gastroenterologist with a focus on digestive health and endoscopy procedures."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 8,
+        "fields": {
+            "name": "Dr. Anjali Reddy",
+            "specialty": "Endocrinologist",
+            "experience": 9,
+            "image": "https://randomuser.me/api/portraits/women/8.jpg",
+            "email": "anjali.reddy@example.com",
+            "contact": "+91-2109876543",
+            "bio": "Dr. Anjali Reddy is a specialist in endocrine disorders, treating diabetes, thyroid, and hormonal imbalances."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 9,
+        "fields": {
+            "name": "Dr. Vishal Kapoor",
+            "specialty": "Ophthalmologist",
+            "experience": 16,
+            "image": "https://randomuser.me/api/portraits/men/9.jpg",
+            "email": "vishal.kapoor@example.com",
+            "contact": "+91-1098765432",
+            "bio": "Dr. Vishal Kapoor is an expert ophthalmologist, focusing on eye surgeries and vision correction."
+        }
+    },
+    {
+        "model": "core.doctor",
+        "pk": 10,
+        "fields": {
+            "name": "Dr. Shruti Desai",
+            "specialty": "Psychiatrist",
+            "experience": 13,
+            "image": "https://randomuser.me/api/portraits/women/10.jpg",
+            "email": "shruti.desai@example.com",
+            "contact": "+91-0987654321",
+            "bio": "Dr. Shruti Desai specializes in mental health treatment, offering therapy and medication management for various psychological disorders."
+        }
     }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 2,
-    "fields": {
-      "name": "Dr. Bob Smith",
-      "specialty": "Orthopedic Surgeon",
-      "experience": 20,
-      "image": "https://randomuser.me/api/portraits/men/2.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 3,
-    "fields": {
-      "name": "Dr. Carol White",
-      "specialty": "Pediatrician",
-      "experience": 12,
-      "image": "https://randomuser.me/api/portraits/women/3.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 4,
-    "fields": {
-      "name": "Dr. Daniel Green",
-      "specialty": "Neurologist",
-      "experience": 18,
-      "image": "https://randomuser.me/api/portraits/men/4.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 5,
-    "fields": {
-      "name": "Dr. Eve Black",
-      "specialty": "Dermatologist",
-      "experience": 10,
-      "image": "https://randomuser.me/api/portraits/women/5.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 6,
-    "fields": {
-      "name": "Dr. Frank Blue",
-      "specialty": "General Surgeon",
-      "experience": 22,
-      "image": "https://randomuser.me/api/portraits/men/6.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 7,
-    "fields": {
-      "name": "Dr. Grace Gray",
-      "specialty": "Endocrinologist",
-      "experience": 14,
-      "image": "https://randomuser.me/api/portraits/women/7.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 8,
-    "fields": {
-      "name": "Dr. Henry Silver",
-      "specialty": "Psychiatrist",
-      "experience": 16,
-      "image": "https://randomuser.me/api/portraits/men/8.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 9,
-    "fields": {
-      "name": "Dr. Isabel Gold",
-      "specialty": "Gynecologist",
-      "experience": 12,
-      "image": "https://randomuser.me/api/portraits/women/9.jpg"
-    }
-  },
-  {
-    "model": "core.doctor",
-    "pk": 10,
-    "fields": {
-      "name": "Dr. Jack White",
-      "specialty": "Oncologist",
-      "experience": 19,
-      "image": "https://randomuser.me/api/portraits/men/10.jpg"
-    }
-  }
 ]

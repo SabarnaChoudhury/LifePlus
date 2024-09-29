@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Doctor, DoctorService } from '../doctor.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-doctor-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './doctor-list.component.html',
   styleUrl: './doctor-list.component.scss'
 })
