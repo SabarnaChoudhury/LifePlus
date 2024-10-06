@@ -163,6 +163,16 @@ life-plus-microservices/
 ## Contact Information
 For any inquiries, feel free to reach out:
 
-- **Project Maintainer**: Sabarna Choudhury
+- **Project Maintainers**:
+
+- **Name**: Sabarna Choudhury
 - **Email**: choudhurysabarna96745@gmail.com
 - **GitHub**: [SabarnaChoudhury](https://github.com/SabarnaChoudhury)
+ 
+- **Name**: Soumya Subhra Nandy
+- **Email**: som10.qea2@gmail.com
+- **GitHub**: [SoumyaSubbhraNandy](https://github.com/som10qa)
+
+- **Name**: Shamik Banerjee
+- **Email**: shamik2000rik@gmail.com
+- **GitHub**: [SoumyaSubbhraNandy](https://github.com/Shamik-codes/)
